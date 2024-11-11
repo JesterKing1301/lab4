@@ -1,0 +1,10 @@
+import random
+
+rnd = [random.randint(1, 100) for _ in range(10)]
+
+result = 1
+for number in rnd:
+    result *= number
+
+print("Список випадкових чисел:", rnd)
+print("Добуток чисел у списку:", result)
